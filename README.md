@@ -1,2 +1,0 @@
-# react-coins
-Capstone React
