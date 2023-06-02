@@ -1,5 +1,14 @@
+:root {
+  --azulbg: #4D66B1;
+  --azul1: #6385E3;
+  --azul2: #4C64B0;
+  --azul3: #3c4e81;
+  --dark:#1a2c64;
+  --degradado: linear-gradient( 90deg, var(--azul1), var(--azul3));
+}
+
 * {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gill Sans', sans-serif;                                                
   box-sizing: border-box;
 }
 
@@ -7,10 +16,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  place-items: center;
-  /* min-width: 320px;*/
   min-height: 100vh; 
-  background: #94a6db;
+  background: var(--azulbg);
   font-size: 16px;
   color: #fff;
 }
