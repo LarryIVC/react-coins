@@ -68,6 +68,7 @@
 - Use React hooks.
 - Apply React best practices and language style guides in code.
 - Use store, actions and reducers in React.
+- Use the [Cryptocoinranking](https://developers.coinranking.com/api/documentation) API
 - Perform a code review for a team member.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
