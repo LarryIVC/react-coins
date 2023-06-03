@@ -30,7 +30,7 @@
 
 # 📖 [Crypto Coinranking] <a name="about-project"></a>
 
-**[Crypto Coinranking]** It's a project to demonstrate my Javascript skills.
+**[Crypto Coinranking]** is a powerful web application designed specifically for crypto coins. It leverages the capabilities of React and Redux to provide comprehensive information about various cryptocurrencies.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,8 +47,9 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://webpack.js.org/">WebPack</a></li>
     <li><a href="https://jestjs.io/">Jest</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://react-redux.js.org/">Redux</a></li>
   </ul>
 </details>
   
@@ -56,15 +57,18 @@
 
 **Enlist skill sets and tech stack**
 
-- Add template for Javascript Capstone
-- Setup `Webpack`
-- Apply `GitFlow`
-- Verified Linters
-- Read and write on APIs
-- Use Arrow functions
-- Using `async` and `await` `Javascript` features.
-- Update styles to improve UX.
-- Test function whit Jest
+- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React Router.
+- Connect React and Redux.
+- Handle events in a React app.
+- Write unit tests with React Testing Library.
+- Use styles in a React app.
+- Use React hooks.
+- Apply React best practices and language style guides in code.
+- Use store, actions and reducers in React.
+- Perform a code review for a team member.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +97,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git git@github.com:LarryIVC/.git
+  git git@github.com:LarryIVC/react-coins.git
 ```
 
 ### Prerequisites
@@ -104,6 +108,11 @@ In order to run this project you need:
   * Browser [Chrome]
   * Linters
 
+- Create a repo on your repositores files.
+- Clone or make a copy of this repo on your local machine.
+- Follow GitHub flow.
+- A carefully reading of this README.md is required.
+
 ### Install
 
 Install this project with:
@@ -112,7 +121,7 @@ Example command:
 
 ```
   sh
-  npm install --save -dev
+  npm install 
 ```
 ### Usage
 
@@ -131,7 +140,7 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Larry Villegas**
+# 👤 **Larry Villegas**
 
 - GitHub: [@LarryIVC](https://github.com/LarryIVC)
 - Twitter: [@LarryVillegas](https://twitter.com/LarryVillegas)
@@ -145,7 +154,8 @@ Example command:
 
 We propose to implement:
 
-- Launch the completed app.
+- [ ] **User Logging.**
+- [ ] **User Authentication**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +182,7 @@ Help me with your criticisms and your suggestions, you will be blessed for such 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for this opportunity.<br>
-I want to give credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design on which this project is based.
+I would like to acknowledge and give credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the exceptional design that served as the foundation for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
