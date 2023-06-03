@@ -1,15 +1,15 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import {  API_URL, COIN_DET, TOKEN } from './consts';
+import { API_URL, COIN_DET, TOKEN } from './consts';
 
 export const fetchCoinDetail = createAsyncThunk(
   'coin/fetchCoinDetail',
   async (id) => {
     const config = {
       headers: {
-        'x-access-token' : TOKEN,
-      }
-    }
-        const response = await fetch(`${API_URL}${COIN_DET}${id}`, config);
+        'x-access-token': TOKEN,
+      },
+    };
+    const response = await fetch(`${API_URL}${COIN_DET}${id}`, config);
     if (response.ok) {
       const dataDetailCoin = await response.json();
       return dataDetailCoin.data.coin;
@@ -19,10 +19,10 @@ export const fetchCoinDetail = createAsyncThunk(
 );
 
 const initialState = {
-  coinData:{},
+  coinData: {},
   isLoading: false,
   error: false,
-}
+};
 
 export const coinDetailSlice = createSlice({
   name: 'coin',
