@@ -6,10 +6,10 @@ export const fetchCoins = createAsyncThunk(
   async () => {
     const config = {
       headers: {
-        'x-access-token' : TOKEN,
-      }
-    }
-    const response = await fetch(API_URL+ALL_COINS, config);
+        'x-access-token': TOKEN,
+      },
+    };
+    const response = await fetch(API_URL + ALL_COINS, config);
     if (response.ok) {
       const dataGlobal = await response.json();
       return dataGlobal.data.coins;
@@ -19,10 +19,10 @@ export const fetchCoins = createAsyncThunk(
 );
 
 const initialState = {
-  coinsData:[],
+  coinsData: [],
   isLoading: false,
   error: false,
-}
+};
 
 export const coinsSlice = createSlice({
   name: 'coins',
