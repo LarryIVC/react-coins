@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import CoinItem from "./CoinItem";
 import { fetchCoins } from "../redux/coins/coinsSlice";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const ListCoins = () => {
   const dispatch = useDispatch();
   const [search, setSearch] = useState('');
   const { coinsData, isLoading, error } = useSelector((state) => state.coins);
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(fetchCoins());
@@ -22,7 +24,6 @@ const ListCoins = () => {
 
   const handleSearch = (e) => {
     setSearch(e.target.value)
-    console.log(search);
   }
   let dataFiltered=[];
   if(!search) {
@@ -31,6 +32,10 @@ const ListCoins = () => {
     dataFiltered = coinsData.filter((dato) => 
       dato.name.toLowerCase().includes(search.toLowerCase())
     )
+  }
+
+  const handleClick = (id) => {
+    if(id) navigate(`details/${id}`);
   }
 
   return (
@@ -48,7 +53,11 @@ const ListCoins = () => {
         <ul className="list-coin">
           {dataFiltered?.map((coin) => {
             return (
-              <li key={coin.uuid} className="coin-item">
+              <li
+                key={coin.uuid}
+                className="coin-item"
+                onClick={() => handleClick(coin.uuid)}
+              >
                 <CoinItem coin={coin} />
               </li>
             );

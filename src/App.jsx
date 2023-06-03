@@ -36,6 +36,9 @@ function App() {
           <Route path="*" element={<NotFound />} />;
         </Routes>
       </main>
+      <footer>
+        Created by Larry Villegas ©
+      </footer>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { API_URL, TOKEN } from './consts';
+import { ALL_COINS, API_URL, TOKEN } from './consts';
 
 export const fetchCoins = createAsyncThunk(
   'coins/fetchCoinsData',
@@ -9,13 +9,12 @@ export const fetchCoins = createAsyncThunk(
         'x-access-token' : TOKEN,
       }
     }
-    const response = await fetch(API_URL, config);
+    const response = await fetch(API_URL+ALL_COINS, config);
     if (response.ok) {
       const dataGlobal = await response.json();
-      // console.log(dataGlobal.data.coins);
       return dataGlobal.data.coins;
     }
-    throw new Error('Failed to fetch dragon data');
+    throw new Error('Failed to fetch coins data');
   },
 );
 
