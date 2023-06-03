@@ -25,7 +25,10 @@ function App() {
             </svg>
           </div>
         </NavLink>
-        <img src="https://cdn.coinranking.com/assets/64374966bb4cd0691a9429341ae9b413.svg" alt="coinrank logo" />
+        <img
+          src="https://cdn.coinranking.com/assets/64374966bb4cd0691a9429341ae9b413.svg"
+          alt="coinrank logo"
+        />
         <h1>Crypto - Coinranking</h1>
       </header>
       <main>
@@ -40,9 +43,7 @@ function App() {
           ;
         </Routes>
       </main>
-      <footer>
-        Created by Larry Villegas ©
-      </footer>
+      <footer>Created by Larry Villegas ©</footer>
     </div>
   );
 }
