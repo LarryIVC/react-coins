@@ -2,6 +2,7 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  width: 100%;
 }
 
 a a:visited a:active {
@@ -25,7 +26,7 @@ h3 {
 }
 
 .page {
-  max-width: 768px;
+  /* max-width: 768px; */
   margin: 0 auto;
 }
 
@@ -148,7 +149,7 @@ footer {
   background-color: #32ef8f;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   color: var(--dark);
   margin-top: 20px;
 }
