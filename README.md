@@ -61,7 +61,7 @@
 - Use React components.
 - Use React props.
 - Use React Router.
-- Connect React and Redux.
+- Connect React and Redux whit API.
 - Handle events in a React app.
 - Write unit tests with React Testing Library.
 - Use styles in a React app.
