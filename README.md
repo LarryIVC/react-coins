@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- <a href="https://CryptoCoinranking.netlify.app/">Click here</a> to view live version 
+ <a href="https://react-coin-coinranking.netlify.app/">Click here</a> to view live version 
   <!--  This feature is not implemented yet  -->
 
 ## Video presenting the features of the project
