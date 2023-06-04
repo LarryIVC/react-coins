@@ -79,10 +79,10 @@
   <!--  This feature is not implemented yet  -->
 
 ## Video presenting the features of the project
-The Crypto Coinranking - JavaScript - Capstone - Watch Video
 
-[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/25bab32ff01641ffb09fa8977237eefc-with-play.gif">](https://www.loom.com/share/25bab32ff01641ffb09fa8977237eefc)
-
+Coins Coinranking - Capstone React Redux - Watch Video
+<br>
+[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d0e21fe3df384dd68247f7373ea4b675-with-play.gif">](https://www.loom.com/share/d0e21fe3df384dd68247f7373ea4b675)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
