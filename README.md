@@ -32,6 +32,8 @@
 
 **[Crypto Coinranking]** is a powerful web application designed specifically for crypto coins. It leverages the capabilities of React and Redux to provide comprehensive information about various cryptocurrencies.
 
+<img src = "cryptomock.png"> 
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
