@@ -26,12 +26,14 @@ const Details = () => {
     );
   }
 
-  // console.log(coinDetail);
   return (
     <>
       <h2 className="det-title">
         Details
-        <span>{coinData.name}</span>
+        <span>
+          {' '}
+          {coinData.name}
+        </span>
       </h2>
       <img className="icon" src={coinData.iconUrl} alt={coinData.name} />
       <ul className="det-container">
