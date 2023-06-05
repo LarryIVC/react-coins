@@ -42,8 +42,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   margin: 10px 0;
-  justify-content: flex-start;
   gap: 20px;
   text-decoration: none;
   width: 100%;
