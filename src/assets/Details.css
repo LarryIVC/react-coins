@@ -1,0 +1,42 @@
+.det-title {
+  font-size: 1.5rem;
+}
+
+.det-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto 0;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+}
+
+.listDetail {
+  display: flex;
+  background-color: var(--azul3);
+  gap: 5px;
+  font-size: 1.25rem;
+  width: 100%;
+  padding: 10px;
+}
+
+.listDetail:nth-child(odd) {
+  background-color: var(--azul1);
+}
+
+.det-des {
+  text-align: justify;
+}
+
+.coinUrl {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+.coinUrl:hover {
+  transform: scale(1.05);
+  color: var(--azul1);
+}
